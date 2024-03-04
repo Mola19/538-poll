@@ -12,8 +12,6 @@ let avg = await fetchPollingAverage("senate", 2022, "nevada")
 ```
 
 ## Poll Types:
-- approval/favorability: no cycle, institution/person
-- generic-ballot: cycle, no institution/person, always dem vs rep
   
 | type                                                            | cycle | entity                   |
 | --------------------------------------------------------------- | ----- | ------------------------ |
