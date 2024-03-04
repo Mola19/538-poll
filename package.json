@@ -1,0 +1,22 @@
+{
+	"name": "538-polls",
+	"version": "0.1.0",
+	"description": "Fetch polling data from 538",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "tsc -w",
+		"build": "tsc -b"
+	},
+	"keywords": ["election", "poll"],
+	"author": "mola19",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mola19/538-polls"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.20",
+		"typescript": "^5.3.3"
+	},
+	"type": "module"
+}
